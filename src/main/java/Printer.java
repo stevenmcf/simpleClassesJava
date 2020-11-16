@@ -10,4 +10,8 @@ public class Printer {
     public int getSheets() {
         return this.sheets;
     }
+
+    public int getToner(){
+        return this.toner;
+    }
 }
