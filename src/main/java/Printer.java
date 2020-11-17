@@ -14,7 +14,7 @@ public class Printer {
     public void print(int pages, int copies){
         int totalPages = pages * copies;
 
-        if (paper > totalPages){
+        if (paper > totalPages && tonerVolume > totalPages){
             paper -= totalPages;
             tonerVolume -= totalPages;
         }
